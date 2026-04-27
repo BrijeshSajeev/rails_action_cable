@@ -1,0 +1,14 @@
+<div class="chat-wrapper">
+	<h1>Basic Action Cable Chat</h1>
+	<p class="chat-subtitle">Open this page in two browser tabs and send messages.</p>
+
+	<div id="chat-messages" class="chat-messages"></div>
+
+	<form id="chat-form" class="chat-form">
+		<input id="chat-name" type="text" placeholder="Your name" required>
+		<input id="chat-message-input" type="text" placeholder="Type a message" required>
+		<button type="submit">Send</button>
+	</form>
+
+	<p class="chat-link"><%= link_to "Users", users_path %></p>
+</div>
